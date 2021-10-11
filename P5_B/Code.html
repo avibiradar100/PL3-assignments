@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code page</title>
+    <style>
+      h2,h3,h4,section {
+        padding:0px 15%
+      }
+      code,pre {
+        margin-left: 15%;
+      } 
+      p{
+          padding-left: 20%;
+          text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1>Welcome to Coding Page..</h1>
+    </header>
+    <hr>
+    <h2>Counts the digits in a number..</h2>
+    <section>
+      <h3>C++ code for given problem statement</h3>
+      <code>
+        <pre style="border: 2px solid">
+            // C++ program to count the digits in a number 
+            #include <bits/stdc++.h> 
+            using namespace std; 
+              
+            // Function for counting digits 
+            int count(int n) 
+            { 
+                <var>int cnt = 0;</var> 
+                while(n)
+                {
+                    cnt++;
+                    n/=10;
+                }
+                return cnt; 
+            } 
+              
+            // Driver Code 
+            int main() 
+            { 
+                <var>int n = 11234;</var>
+                cout <<"Total No Of Words: "<< count(n); 
+                return 0; 
+            } 
+        </pre>
+      </code>
+    </section>
+    <section>
+      <h3>Sample Inputs and Outputs...</h3>
+      <samp>
+        <pre>
+            Input : 123
+            Output: Total No Of Words: 3
+        </pre>
+      </samp>
+
+      <samp>
+        <pre>
+            Input : 53
+            Output: Total No Of Words: 2
+        </pre>
+      </samp>
+
+      <samp>
+        <pre>
+            Input : 42345221
+            Output: Total No Of Words: 8
+        </pre>
+      </samp>
+    </section>
+    <section>
+        <h3>Variables use in a program : <var>n , cnt</var></h3>
+    </section>
+    <section>
+        <h3>Complexity</h3>
+        <p>The above program iterates <s>n</s></sup> <strong> log<sub>10</sub>(n)</strong> times</p>
+        <p>So time complexity is <strong>O(log<sub>10</sub>(n))</strong></p>
+    </section>
+    <hr>
+    <footer>
+        <p>For more information 
+        <a href="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/" target="_blank">Click here</a></p>
+        <p>Or visit <a href="https://www.geeksforgeeks.org/" target="_blank">GFG</a></p>
+    </footer>
+  </body>
+</html>
