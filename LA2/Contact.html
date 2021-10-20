@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-wifth; initial-scale=1.0"
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="title"><h1>Contact Me</h1></div>
+        <div>
+          <ul class="list" style="list-style-type: none">
+            <li>
+              <a href="./index.html"><button>About Me</button></a>
+            </li>
+             <li>
+              <a href="./town.html"><button>My town</button></a>
+            </li>
+            <li>
+              <a href="./Education.html"><button>Education</button></a>
+            </li>
+            <li>
+              <a href="./TechnicalSkills.html"
+                ><button>Technical Skills</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="contactPage">
+        <h1 style="text-align: center;">Contact Me</h1>
+        <p style="text-align: center;">biradarav.100@gmail.com | 7219578500</p>
+        <hr>
+        <div class="contactform">
+          <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name"> <br> <br> <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email"> <br><br>
+          <p class="formfield">
+            <label for="purpose">Pupose:</label>
+            <textarea name="" id="purpose" cols="25" rows="8"></textarea>
+          </p>
+          <div class="btn">
+          <button type="submit" onclick="message()">Submit</button>
+          <button type="reset">Reset</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./contact.js"></script>
+  </body>
+</html>

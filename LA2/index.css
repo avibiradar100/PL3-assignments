@@ -70,9 +70,9 @@ body {
 #lowerContainer {
   color: black;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 80%;
+  width: 60%;
+  margin: 5% 70%;
   border-radius: 10px;
-  margin: auto;
   padding: 5px 20px;
 }
 #container {
@@ -132,7 +132,4 @@ body {
 
 #topLink{
   margin-left: 10px;
-}
-.resume{
-  padding:30px;
 }
